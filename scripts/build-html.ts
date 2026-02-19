@@ -1,3 +1,6 @@
+await Bun.write('./dist/.nojekyll', '')
+console.log('✓ Created .nojekyll')
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
