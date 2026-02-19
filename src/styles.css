@@ -184,7 +184,7 @@ a, button, .nav__link, .link {
   user-select: none;
   flex-shrink: 0;
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .terminal-content {
@@ -205,16 +205,11 @@ a, button, .nav__link, .link {
 
 .hero__content {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .hero__line {
   margin: 0 0 0.25rem 0;
-  line-height: 1.4;
-}
-
-.hero__line:first-child {
-  line-height: 1;
 }
 
 .hero__line--indent {
@@ -280,12 +275,12 @@ a, button, .nav__link, .link {
 /* About Section */
 .about__content {
   padding: 0;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .about__text {
   color: var(--text-primary);
-  font-size: 0.9375rem;
-  line-height: 1.8;
   margin: 0;
 }
 
@@ -504,11 +499,12 @@ a, button, .nav__link, .link {
 /* Contact Section */
 .contact__content {
   padding: 0;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .contact__line {
   margin: 0.5rem 0;
-  font-size: 0.9375rem;
 }
 
 .contact__line:first-child {
