@@ -169,6 +169,7 @@ body {
 .terminal-body {
   padding: 1.5rem;
   display: flex;
+  align-items: flex-start;
   gap: 0.5rem;
 }
 
@@ -176,10 +177,18 @@ body {
   color: var(--accent-green);
   font-weight: 600;
   user-select: none;
+  flex-shrink: 0;
 }
 
 .terminal-content {
   flex: 1;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.terminal-content > *:first-child {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 /* Hero Section */
@@ -194,6 +203,10 @@ body {
 
 .hero__line {
   margin: 0.25rem 0;
+}
+
+.hero__line:first-child {
+  margin-top: 0;
 }
 
 .hero__line--indent {
@@ -258,13 +271,14 @@ body {
 
 /* About Section */
 .about__content {
-  padding: 0.5rem 0;
+  padding: 0;
 }
 
 .about__text {
   color: var(--text-primary);
   font-size: 0.9375rem;
   line-height: 1.8;
+  margin: 0;
 }
 
 /* Card Component */
@@ -481,12 +495,16 @@ body {
 
 /* Contact Section */
 .contact__content {
-  padding: 0.5rem 0;
+  padding: 0;
 }
 
 .contact__line {
   margin: 0.5rem 0;
   font-size: 0.9375rem;
+}
+
+.contact__line:first-child {
+  margin-top: 0;
 }
 
 .link {
