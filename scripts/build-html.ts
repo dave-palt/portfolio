@@ -1,6 +1,12 @@
 await Bun.write('./dist/.nojekyll', '')
 console.log('✓ Created .nojekyll')
 
+const cname = await Bun.file('./CNAME').text().catch(() => null)
+if (cname) {
+  await Bun.write('./dist/CNAME', cname)
+  console.log('✓ Copied CNAME')
+}
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
