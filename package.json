@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot server.ts",
+    "build": "bun run build:bundle && bun run build:html",
+    "build:bundle": "bun build ./src/index.tsx --outdir ./dist --target browser --minify --sourcemap",
+    "build:html": "bun run scripts/build-html.ts",
+    "preview": "bun serve dist"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Davide Palchetti | Full Stack Engineer",
+    "description": "Full Stack Engineer specializing in AI, GraphQL, and AWS serverless technologies",
+    "author": "Davide Palchetti"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "data": {
+        "name": "Davide Palchetti",
+        "title": "Full Stack Engineer",
+        "tagline": "AI | GraphQL | AWS",
+        "terminalPrompt": "~/portfolio"
+      }
+    },
+    {
+      "type": "stats",
+      "data": {
+        "items": [
+          { "label": "Years Experience", "value": "10+" },
+          { "label": "Companies", "value": "4" },
+          { "label": "Certifications", "value": "7" },
+          { "label": "AI Projects", "value": "5+" }
+        ]
+      }
+    },
+    {
+      "type": "about",
+      "data": {
+        "summary": "Full Stack Engineer at BINGO INDUSTRIES advancing innovative solutions in artificial intelligence and serverless technologies. With a strong focus on Apollo GraphQL and AWS Lambda, I collaborate to deliver scalable, efficient, and future-ready digital systems. Prior experience at HRM Group and Florence Consulting Group honed skills in integration and full-stack development, enabling contributions to complex ecosystems. Dedicated to optimizing workflows and empowering organizations with cutting-edge tools."
+      }
+    },
+    {
+      "type": "experience",
+      "data": {
+        "items": [
+          {
+            "company": "BINGO INDUSTRIES",
+            "role": "Full Stack Engineer",
+            "period": "April 2022 - Present",
+            "location": "Sydney, NSW, Australia",
+            "description": "Building scalable solutions using AI, GraphQL, and serverless technologies",
+            "technologies": ["Apollo GraphQL", "AWS Lambda", "TypeScript", "React", "Node.js"]
+          },
+          {
+            "company": "HRM Group",
+            "role": "Fullstack Developer",
+            "period": "February 2020 - April 2022",
+            "location": "Florence, Italy",
+            "description": "Full-stack development for enterprise applications",
+            "technologies": ["React", "Node.js", "PostgreSQL", "Docker"]
+          },
+          {
+            "company": "Florence Consulting Group",
+            "role": "Integration Specialist",
+            "period": "October 2015 - February 2020",
+            "location": "Florence, Italy",
+            "description": "Systems integration and API development",
+            "technologies": ["MuleSoft", "Java", "REST APIs", "SOAP"]
+          },
+          {
+            "company": "Freelance",
+            "role": "Full-stack Developer",
+            "period": "January 2013 - October 2015",
+            "location": "Italy",
+            "description": "Independent consulting and development projects",
+            "technologies": ["PHP", "JavaScript", "MySQL", "WordPress"]
+          }
+        ]
+      }
+    },
+    {
+      "type": "skills",
+      "data": {
+        "categories": [
+          {
+            "name": "AI & Machine Learning",
+            "skills": ["LangGraph", "LangChain", "LlamaIndex", "Amazon Bedrock", "OpenAI", "AI Agents"]
+          },
+          {
+            "name": "Backend & APIs",
+            "skills": ["Apollo GraphQL", "AWS Lambda", "Node.js", "TypeScript", "REST APIs", "MuleSoft"]
+          },
+          {
+            "name": "Frontend",
+            "skills": ["React", "Vue.js", "TypeScript", "Tailwind CSS", "HTML/CSS"]
+          },
+          {
+            "name": "Cloud & DevOps",
+            "skills": ["AWS", "Kubernetes", "Docker", "CI/CD", "Serverless"]
+          },
+          {
+            "name": "Databases",
+            "skills": ["PostgreSQL", "MongoDB", "DynamoDB", "Redis"]
+          }
+        ]
+      }
+    },
+    {
+      "type": "certifications",
+      "data": {
+        "items": [
+          {
+            "name": "Building Applications Using Amazon Bedrock",
+            "issuer": "LinkedIn",
+            "date": "Aug 2025"
+          },
+          {
+            "name": "Build AI Agents and Chatbots with LangGraph",
+            "issuer": "LinkedIn",
+            "date": "Jul 2025"
+          },
+          {
+            "name": "Introduction to AI Orchestration with LangChain and LlamaIndex",
+            "issuer": "LinkedIn",
+            "date": "Jul 2025"
+          },
+          {
+            "name": "Learning Kubernetes",
+            "issuer": "LinkedIn",
+            "date": "Feb 2022"
+          },
+          {
+            "name": "Learning Vue.js",
+            "issuer": "LinkedIn",
+            "date": "Feb 2022"
+          },
+          {
+            "name": "MCD - Integration and API Associate (Mule 3.8)",
+            "issuer": "MuleSoft",
+            "date": "Jun 2018"
+          },
+          {
+            "name": "Contentful Certification Workshop",
+            "issuer": "Contentful",
+            "date": "Nov 2017"
+          }
+        ]
+      }
+    },
+    {
+      "type": "education",
+      "data": {
+        "items": [
+          {
+            "institution": "ITIS Antonio Meucci",
+            "degree": "Diploma",
+            "field": "Electronics and Telecommunications",
+            "period": "2006 - 2011"
+          }
+        ]
+      }
+    },
+    {
+      "type": "contact",
+      "data": {
+        "email": "portfolio@dav3.cc",
+        "linkedin": "https://au.linkedin.com/in/davide-palchetti",
+        "github": "https://github.com/dpalchetti",
+        "location": "Sydney, Australia"
+      }
+    }
+  ]
+}
