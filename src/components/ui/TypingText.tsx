@@ -12,7 +12,7 @@ export function TypingText({
   text, 
   speed = 50, 
   className = '', 
-  cursorChar = '|',
+  cursorChar = '▌',
   onComplete 
 }: TypingTextProps) {
   const [displayedText, setDisplayedText] = useState('')

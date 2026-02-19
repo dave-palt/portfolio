@@ -34,7 +34,7 @@ export function Contact({ data }: { data: ContactData }) {
               <span className="variable">GITHUB</span>
               <span className="operator">=</span>
               <a href={github} target="_blank" rel="noopener noreferrer" className="string link">
-                "github.com/dpalchetti"
+                "github.com/dave-palt"
               </a>
             </div>
           )}

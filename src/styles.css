@@ -25,6 +25,7 @@
 
 html {
   scroll-behavior: smooth;
+  cursor: crosshair;
 }
 
 body {
@@ -33,6 +34,10 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   min-height: 100vh;
+}
+
+a, button, .nav__link, .link {
+  cursor: pointer;
 }
 
 .app {

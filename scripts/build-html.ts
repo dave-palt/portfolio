@@ -7,6 +7,12 @@ if (cname) {
   console.log('✓ Copied CNAME')
 }
 
+const favicon = await Bun.file('./favicon.svg').text().catch(() => null)
+if (favicon) {
+  await Bun.write('./dist/favicon.svg', favicon)
+  console.log('✓ Copied favicon')
+}
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +21,7 @@ const html = `<!DOCTYPE html>
   <meta name="description" content="Davide Palchetti - Full Stack Engineer specializing in AI, GraphQL, and AWS serverless technologies">
   <meta name="author" content="Davide Palchetti">
   <title>Davide Palchetti | Full Stack Engineer</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
