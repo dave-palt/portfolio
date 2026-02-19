@@ -183,6 +183,8 @@ a, button, .nav__link, .link {
   font-weight: 600;
   user-select: none;
   flex-shrink: 0;
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 .terminal-content {
