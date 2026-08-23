@@ -1,5 +1,6 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "portfolio",
@@ -11,9 +12,7 @@
         "@types/bun": "latest",
         "@types/react": "^19.2.14",
         "@types/react-dom": "^19.2.3",
-      },
-      "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^5.0.0",
       },
     },
   },

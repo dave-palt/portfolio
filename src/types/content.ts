@@ -53,17 +53,32 @@ export type EducationData = {
   }>
 }
 
+export type ProjectData = {
+  items: Array<{
+    name: string
+    description: string
+    url: string
+    tech?: string[]
+    link?: string
+  }>
+}
+
 export type ContactData = {
   email: string
   linkedin?: string
   github?: string
   location?: string
+  donate?: Array<{
+    label: string
+    url: string
+  }>
 }
 
 export type SectionType = 
   | 'hero'
   | 'about'
   | 'stats'
+  | 'projects'
   | 'experience'
   | 'skills'
   | 'certifications'
@@ -88,6 +103,7 @@ export type SectionMap = {
   hero: HeroData
   about: AboutData
   stats: StatsData
+  projects: ProjectData
   experience: ExperienceData
   skills: SkillsData
   certifications: CertificationData

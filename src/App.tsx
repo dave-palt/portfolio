@@ -1,7 +1,7 @@
 import type { SectionType } from './types/content'
 import content from './data/content.json'
 import { 
-  Hero, About, Stats, Experience, Skills, 
+  Hero, About, Stats, Projects, Experience, Skills, 
   Certifications, Education, Contact 
 } from './components/content-types'
 import './styles.css'
@@ -10,6 +10,7 @@ const sectionComponents = {
   hero: Hero,
   about: About,
   stats: Stats,
+  projects: Projects,
   experience: Experience,
   skills: Skills,
   certifications: Certifications,
@@ -25,7 +26,7 @@ export function App() {
         <nav className="nav">
           <span className="nav__logo">{'{ }'}</span>
           <div className="nav__links">
-            {['about', 'experience', 'skills', 'contact'].map(id => (
+            {['about', 'projects', 'experience', 'skills', 'contact'].map(id => (
               <a key={id} href={`#${id}`} className="nav__link">
                 {id}
               </a>
@@ -46,6 +47,16 @@ export function App() {
       <footer className="footer">
         <p className="footer__text">
           <span className="comment">{`// Built with Bun + React`}</span>
+        </p>
+        <p className="footer__donate">
+          <span className="comment">{"// enjoy my free apps? "}</span>
+          <a href="https://ko-fi.com/davepalt" target="_blank" rel="noopener noreferrer" className="footer__donate-link">
+            ko-fi
+          </a>
+          <span className="comment">{" · "}</span>
+          <a href="https://buymeacoffee.com/dave.palt" target="_blank" rel="noopener noreferrer" className="footer__donate-link">
+            buy me a coffee
+          </a>
         </p>
         <p className="footer__copyright">
           © {new Date().getFullYear()} {content.meta.author}

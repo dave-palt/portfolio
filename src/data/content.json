@@ -19,7 +19,7 @@
       "data": {
         "items": [
           { "label": "Years Experience", "value": "10+" },
-          { "label": "Companies", "value": "4" },
+          { "label": "Open Source Projects", "value": "6" },
           { "label": "Certifications", "value": "7" },
           { "label": "AI Projects", "value": "5+" }
         ]
@@ -28,7 +28,45 @@
     {
       "type": "about",
       "data": {
-        "summary": "Full Stack Engineer at BINGO INDUSTRIES advancing innovative solutions in artificial intelligence and serverless technologies. With a strong focus on Apollo GraphQL and AWS Lambda, I collaborate to deliver scalable, efficient, and future-ready digital systems. Prior experience at HRM Group and Florence Consulting Group honed skills in integration and full-stack development, enabling contributions to complex ecosystems. Dedicated to optimizing workflows and empowering organizations with cutting-edge tools."
+        "summary": "Full Stack Engineer at BINGO INDUSTRIES working on AI, GraphQL and serverless systems on AWS. By night I publish free, open-source apps and tools — an Android link inspector with zero permissions, a native Immich photo frame, and a GraphQL-to-SQL query generator, among others. Before Sydney: full-stack and integration work in Florence. I like software that does one job, does it honestly, and respects the user."
+      }
+    },
+    {
+      "type": "projects",
+      "data": {
+        "items": [
+          {
+            "name": "linksentry-android",
+            "description": "Default-browser link inspector for Android. Zero permissions, no internet access, everything checked on-device — see where a link points before anything loads.",
+            "url": "https://github.com/dave-palt/linksentry-android",
+            "tech": ["Kotlin", "Jetpack Compose"]
+          },
+          {
+            "name": "gql-of-power",
+            "description": "TypeScript library that turns GraphQL queries into a single optimized SQL query — kills the N+1 problem and data loaders. Includes a live in-browser demo.",
+            "url": "https://github.com/dave-palt/gql-of-power",
+            "link": "https://dave-palt.github.io/gql-of-power/",
+            "tech": ["TypeScript", "GraphQL", "SQL"]
+          },
+          {
+            "name": "immich-photo-frame",
+            "description": "Native Android photo frame for Immich — talks to the API directly, no Docker middleman, no WebView. Ken Burns, night mode, offline cache.",
+            "url": "https://github.com/dave-palt/immich-photo-frame",
+            "tech": ["Kotlin", "Jetpack Compose"]
+          },
+          {
+            "name": "mcp-dynamics-365",
+            "description": "MCP server letting AI agents query and operate on Microsoft Dynamics 365 CRM entities.",
+            "url": "https://github.com/dave-palt/mcp-dynamics-365",
+            "tech": ["TypeScript", "MCP"]
+          },
+          {
+            "name": "wifi-inspect",
+            "description": "Cross-platform app that scans WiFi networks for hidden IP cameras — built for travelers checking hotel and Airbnb rooms.",
+            "url": "https://github.com/dave-palt/wifi-inspect",
+            "tech": ["React Native", "TypeScript"]
+          }
+        ]
       }
     },
     {
@@ -158,7 +196,11 @@
         "email": "portfolio@dav3.cc",
         "linkedin": "https://au.linkedin.com/in/davide-palchetti",
         "github": "https://github.com/dave-palt",
-        "location": "Sydney, Australia"
+        "location": "Sydney, Australia",
+        "donate": [
+          { "label": "ko-fi.com/davepalt", "url": "https://ko-fi.com/davepalt" },
+          { "label": "buymeacoffee.com/dave.palt", "url": "https://buymeacoffee.com/dave.palt" }
+        ]
       }
     }
   ]
