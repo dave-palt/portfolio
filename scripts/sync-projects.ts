@@ -92,7 +92,7 @@ for (const r of candidates.filter((r) => r.description?.trim()).slice(0, Math.ma
     name: r.name,
     description: r.description!.trim(),
     url: r.html_url,
-    ...(detail.primary_language?.name ? { tech: [detail.primary_language.name] } : {}),
+    ...(detail.language ? { tech: [detail.language] } : {}),
   })
 }
 
