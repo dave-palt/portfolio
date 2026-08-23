@@ -1,0 +1,30 @@
+name: Sync projects from GitHub
+
+on:
+  schedule:
+    - cron: '0 3 * * 1' # Mondays 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-projects
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Run sync (opens PR if changed)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPEN_PR: '1'
+        run: bun scripts/sync-projects.ts

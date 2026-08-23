@@ -1,18 +1,9 @@
 {
-  "meta": {
-    "title": "Davide Palchetti | Full Stack Engineer",
-    "description": "Full Stack Engineer specializing in AI, GraphQL, and AWS serverless technologies",
-    "author": "Davide Palchetti"
-  },
+  "meta": { "title": "Davide Palchetti | Full Stack Engineer", "description": "Full Stack Engineer specializing in AI, GraphQL, and AWS serverless technologies", "author": "Davide Palchetti" },
   "sections": [
     {
       "type": "hero",
-      "data": {
-        "name": "Davide Palchetti",
-        "title": "Full Stack Engineer",
-        "tagline": "AI | GraphQL | AWS",
-        "terminalPrompt": "~/portfolio"
-      }
+      "data": { "name": "Davide Palchetti", "title": "Full Stack Engineer", "tagline": "AI | GraphQL | AWS", "terminalPrompt": "~/portfolio" }
     },
     {
       "type": "stats",
@@ -27,9 +18,7 @@
     },
     {
       "type": "about",
-      "data": {
-        "summary": "Full Stack Engineer at BINGO INDUSTRIES working on AI, GraphQL and serverless systems on AWS. By night I publish free, open-source apps and tools — an Android link inspector with zero permissions, a native Immich photo frame, and a GraphQL-to-SQL query generator, among others. Before Sydney: full-stack and integration work in Florence. I like software that does one job, does it honestly, and respects the user."
-      }
+      "data": { "summary": "Full Stack Engineer at BINGO INDUSTRIES working on AI, GraphQL and serverless systems on AWS. By night I publish free, open-source apps and tools — an Android link inspector with zero permissions, a native Immich photo frame, and a GraphQL-to-SQL query generator, among others. Before Sydney: full-stack and integration work in Florence. I like software that does one job, does it honestly, and respects the user." }
     },
     {
       "type": "projects",
@@ -55,16 +44,16 @@
             "tech": ["Kotlin", "Jetpack Compose"]
           },
           {
-            "name": "mcp-dynamics-365",
-            "description": "MCP server letting AI agents query and operate on Microsoft Dynamics 365 CRM entities.",
-            "url": "https://github.com/dave-palt/mcp-dynamics-365",
-            "tech": ["TypeScript", "MCP"]
-          },
-          {
             "name": "wifi-inspect",
             "description": "Cross-platform app that scans WiFi networks for hidden IP cameras — built for travelers checking hotel and Airbnb rooms.",
             "url": "https://github.com/dave-palt/wifi-inspect",
             "tech": ["React Native", "TypeScript"]
+          },
+          {
+            "name": "mcp-dynamics-365",
+            "description": "MCP server letting AI agents query and operate on Microsoft Dynamics 365 CRM entities.",
+            "url": "https://github.com/dave-palt/mcp-dynamics-365",
+            "tech": ["TypeScript", "MCP"]
           }
         ]
       }
@@ -117,6 +106,10 @@
             "skills": ["LangGraph", "LangChain", "LlamaIndex", "Amazon Bedrock", "OpenAI", "AI Agents"]
           },
           {
+            "name": "AI Harness",
+            "skills": ["Hermes", "Claude Code", "OpenCode"]
+          },
+          {
             "name": "Backend & APIs",
             "skills": ["Apollo GraphQL", "AWS Lambda", "Node.js", "TypeScript", "REST APIs", "MuleSoft"]
           },
@@ -139,41 +132,13 @@
       "type": "certifications",
       "data": {
         "items": [
-          {
-            "name": "Building Applications Using Amazon Bedrock",
-            "issuer": "LinkedIn",
-            "date": "Aug 2025"
-          },
-          {
-            "name": "Build AI Agents and Chatbots with LangGraph",
-            "issuer": "LinkedIn",
-            "date": "Jul 2025"
-          },
-          {
-            "name": "Introduction to AI Orchestration with LangChain and LlamaIndex",
-            "issuer": "LinkedIn",
-            "date": "Jul 2025"
-          },
-          {
-            "name": "Learning Kubernetes",
-            "issuer": "LinkedIn",
-            "date": "Feb 2022"
-          },
-          {
-            "name": "Learning Vue.js",
-            "issuer": "LinkedIn",
-            "date": "Feb 2022"
-          },
-          {
-            "name": "MCD - Integration and API Associate (Mule 3.8)",
-            "issuer": "MuleSoft",
-            "date": "Jun 2018"
-          },
-          {
-            "name": "Contentful Certification Workshop",
-            "issuer": "Contentful",
-            "date": "Nov 2017"
-          }
+          { "name": "Building Applications Using Amazon Bedrock", "issuer": "LinkedIn", "date": "Aug 2025" },
+          { "name": "Build AI Agents and Chatbots with LangGraph", "issuer": "LinkedIn", "date": "Jul 2025" },
+          { "name": "Introduction to AI Orchestration with LangChain and LlamaIndex", "issuer": "LinkedIn", "date": "Jul 2025" },
+          { "name": "Learning Kubernetes", "issuer": "LinkedIn", "date": "Feb 2022" },
+          { "name": "Learning Vue.js", "issuer": "LinkedIn", "date": "Feb 2022" },
+          { "name": "MCD - Integration and API Associate (Mule 3.8)", "issuer": "MuleSoft", "date": "Jun 2018" },
+          { "name": "Contentful Certification Workshop", "issuer": "Contentful", "date": "Nov 2017" }
         ]
       }
     },
@@ -181,12 +146,7 @@
       "type": "education",
       "data": {
         "items": [
-          {
-            "institution": "ITIS Antonio Meucci",
-            "degree": "Diploma",
-            "field": "Electronics and Telecommunications",
-            "period": "2006 - 2011"
-          }
+          { "institution": "ITIS Antonio Meucci", "degree": "Diploma", "field": "Electronics and Telecommunications", "period": "2006 - 2011" }
         ]
       }
     },
