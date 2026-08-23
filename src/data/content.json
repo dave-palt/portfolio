@@ -54,7 +54,8 @@
             "description": "MCP server letting AI agents query and operate on Microsoft Dynamics 365 CRM entities.",
             "url": "https://github.com/dave-palt/mcp-dynamics-365",
             "tech": ["TypeScript", "MCP"]
-          }
+          },
+          { "name": "comfyui_DSP_imagehelpers", "description": "Image Helper module for ComfyUI", "url": "https://github.com/dave-palt/comfyui_DSP_imagehelpers" }
         ]
       }
     },
