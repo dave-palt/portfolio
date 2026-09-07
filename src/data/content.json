@@ -31,17 +31,17 @@
             "tech": ["Kotlin", "Jetpack Compose"]
           },
           {
+            "name": "immich-photo-frame",
+            "description": "Native Android photo frame for Immich — talks to the API directly, no Docker middleman, no WebView. Ken Burns, night mode, offline cache.",
+            "url": "https://github.com/dave-palt/immich-photo-frame",
+            "tech": ["Kotlin", "Jetpack Compose"]
+          },
+          {
             "name": "gql-of-power",
             "description": "TypeScript library that turns GraphQL queries into a single optimized SQL query — kills the N+1 problem and data loaders. Includes a live in-browser demo.",
             "url": "https://github.com/dave-palt/gql-of-power",
             "link": "https://dave-palt.github.io/gql-of-power/",
             "tech": ["TypeScript", "GraphQL", "SQL"]
-          },
-          {
-            "name": "immich-photo-frame",
-            "description": "Native Android photo frame for Immich — talks to the API directly, no Docker middleman, no WebView. Ken Burns, night mode, offline cache.",
-            "url": "https://github.com/dave-palt/immich-photo-frame",
-            "tech": ["Kotlin", "Jetpack Compose"]
           },
           {
             "name": "wifi-inspect",
