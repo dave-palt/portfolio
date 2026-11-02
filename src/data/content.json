@@ -10,7 +10,7 @@
       "data": {
         "items": [
           { "label": "Years Experience", "value": "10+" },
-          { "label": "Open Source Projects", "value": "6" },
+          { "label": "Open Source Projects", "value": "8" },
           { "label": "Certifications", "value": "7" },
           { "label": "AI Projects", "value": "5+" }
         ]
@@ -25,12 +25,6 @@
       "data": {
         "items": [
           {
-            "name": "linksentry-android",
-            "description": "Default-browser link inspector for Android. Zero permissions, no internet access, everything checked on-device — see where a link points before anything loads.",
-            "url": "https://github.com/dave-palt/linksentry-android",
-            "tech": ["Kotlin", "Jetpack Compose"]
-          },
-          {
             "name": "gql-of-power",
             "description": "TypeScript library that turns GraphQL queries into a single optimized SQL query — kills the N+1 problem and data loaders. Includes a live in-browser demo.",
             "url": "https://github.com/dave-palt/gql-of-power",
@@ -38,10 +32,28 @@
             "tech": ["TypeScript", "GraphQL", "SQL"]
           },
           {
+            "name": "linksentry-android",
+            "description": "Default-browser link inspector for Android. Zero permissions, no internet access, everything checked on-device — see where a link points before anything loads.",
+            "url": "https://github.com/dave-palt/linksentry-android",
+            "tech": ["Kotlin", "Jetpack Compose"]
+          },
+          {
+            "name": "he-debug",
+            "description": "Header Editor custom function debugger — test custom functions against a sample URL, all client-side",
+            "url": "https://github.com/dave-palt/he-debug",
+            "tech": ["HTML"]
+          },
+          {
             "name": "immich-photo-frame",
             "description": "Native Android photo frame for Immich — talks to the API directly, no Docker middleman, no WebView. Ken Burns, night mode, offline cache.",
             "url": "https://github.com/dave-palt/immich-photo-frame",
             "tech": ["Kotlin", "Jetpack Compose"]
+          },
+          {
+            "name": "simonalascialfari",
+            "description": "Portfolio di Simona Lascialfari — fotografa a Bagno a Ripoli, Firenze",
+            "url": "https://github.com/dave-palt/simonalascialfari",
+            "tech": ["JavaScript"]
           },
           {
             "name": "wifi-inspect",
