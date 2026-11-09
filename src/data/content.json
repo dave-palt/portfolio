@@ -10,7 +10,7 @@
       "data": {
         "items": [
           { "label": "Years Experience", "value": "10+" },
-          { "label": "Open Source Projects", "value": "6" },
+          { "label": "Open Source Projects", "value": "8" },
           { "label": "Certifications", "value": "7" },
           { "label": "AI Projects", "value": "5+" }
         ]
@@ -31,11 +31,23 @@
             "tech": ["Kotlin", "Jetpack Compose"]
           },
           {
+            "name": "simonalascialfari",
+            "description": "Portfolio di Simona Lascialfari — fotografa a Bagno a Ripoli, Firenze",
+            "url": "https://github.com/dave-palt/simonalascialfari",
+            "tech": ["JavaScript"]
+          },
+          {
             "name": "gql-of-power",
             "description": "TypeScript library that turns GraphQL queries into a single optimized SQL query — kills the N+1 problem and data loaders. Includes a live in-browser demo.",
             "url": "https://github.com/dave-palt/gql-of-power",
             "link": "https://dave-palt.github.io/gql-of-power/",
             "tech": ["TypeScript", "GraphQL", "SQL"]
+          },
+          {
+            "name": "he-debug",
+            "description": "Header Editor custom function debugger — test custom functions against a sample URL, all client-side",
+            "url": "https://github.com/dave-palt/he-debug",
+            "tech": ["HTML"]
           },
           {
             "name": "immich-photo-frame",
